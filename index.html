@@ -12,22 +12,22 @@
 	<header>
 	<!-- logo -->
 	<h1><img src="img/PC/logo_company.png" alt="ロゴマークです。"></h1>
-	<!-- gloval-navigation -->
-	<nav>
+	<!-- header__gloval-navigation -->
+	<nav class="header-nav__ul--col">
 	<ul>
-		<li><ruby>トップ<rt>TOP</rt></ruby></li>
-		<li><ruby>事業内容<rt>SERVICES</rt></ruby></li>
-		<li><ruby>園崎組について<rt>ABOUT</rt></ruby></li>
-		<li><ruby>園崎組の実績<rt>WORKS</rt></ruby></li>
-		<li><ruby>採用情報<rt>RECRUIT</rt></ruby></li>
-		<li><ruby>お問い合わせ<rt>CONTACT</rt></ruby></li>
+		<li class="list-item--col"><ruby>トップ<rt>TOP</rt></ruby></li>
+		<li class="list-item--col"><ruby>事業内容<rt>SERVICES</rt></ruby></li>
+		<li class="list-item--col"><ruby>園崎組について<rt>ABOUT</rt></ruby></li>
+		<li class="list-item--col"><ruby>園崎組の実績<rt>WORKS</rt></ruby></li>
+		<li class="list-item--col"><ruby>採用情報<rt>RECRUIT</rt></ruby></li>
+		<li class="list-item--col"><ruby>お問い合わせ<rt>CONTACT</rt></ruby></li>
 	</ul>
 	</nav>
 	</header>
 
 	<div class="first-view" id="top">
 	<div class="text-contents top">
-	<h1 class="fs-large">
+	<h1 class="fs-large txt">
 	CHALLENGE<br>
 	FROM THE BOTTOM	
 	</h1>
@@ -41,7 +41,7 @@
 	<dl>
 	<dt class="label">NEWS</dt>
 	<dd>
-	<span class="date">2021.06.12</span>
+	<span class="date">2021.08.12</span>
 	<span class="label-2">お知らせ</span>
 	<span class="news-txt">新サイトを公開しました。</span>
 	<span><img src="img/PC/arrow.svg"　alt="ボタンです。"></span>
@@ -54,9 +54,9 @@
 	</div>
 	
 	<!-- ここからサービスセクション -->
-	<section class="services" id="service">
+	<section class="services" id="services">
 	<h1></h1>
-	<img src="img/PC/image-services.jpg" alt="園崎組のサービスを紹介" class="mt30">
+	<img src="img/PC/image-services.jpg" alt="園崎組のサービスを紹介してます。" class="mt30">
 	<div class="txt-area mt30">
 	<h2>SERVICES</h2>
 	<h3>人々の生活基盤を<br>世界最高峰の技術で支える</h3>
@@ -79,7 +79,7 @@
 	また、自社工場に置いて施工に必要とされる<br>
 	各種資材も生産しており、各業者に提供することで、<br>
 	社会基盤の構築・整備に貢献しております。</p>
-	<a class="btn btn-bg--blue">詳しく見る<img src="img/PC/arrow.svg" alt="ボタンです"></a>
+	<a class="btn btn-bg--blue">詳しく見る<img src="img/PC/arrow.svg" alt="ボタンです。"></a>
 	<img src="img/PC/image-about.jpg" style="width:100%">
 	</div>
 	</div>
@@ -96,7 +96,7 @@
 
 	<ul class="works-item-list">
 		<li>
-		<img src="img/PC/image-works-1.jpg" alt="施工実績">
+		<img src="img/PC/image-works-1.jpg" alt="施工実績">
 		<div class="txt">
 		<h4>施工実績</h4>
 		<p>東南アジア某国での国家規模のプロジェクトに参画した際<br>の園崎組の
@@ -122,6 +122,7 @@
 	<section class="recruit" id="recruit">
 	<h2>RECRUIT <span class="--fs_24">/ 採用情報</span></h2>
 	<div class="contents-box">
+	<!-- flexbox -->
 	<ul class="align--center">
 	　	<li><img src="img/PC/image-recruit-1.jpg" alt="園崎組を知る"><p class="recruit_txt">園崎組を知る<img src="img/PC/arrow.svg" alt="ボタンです"></p></li>
 	　	<li><img src="img/PC/image-recruit-2.jpg" alt="園崎組の一日"><p class="recruit_txt">園崎組の一日<img src="img/PC/arrow.svg" alt="ボタンです"></p></li>
@@ -149,7 +150,17 @@
 	</section>
 	<!-- ここからフッター -->
 	<footer>
-	
+	<div class="footer-inner">
+	<nav class="footer-nav">
+		<ul class="footer-nav__ul--row">
+			<li class="list-item--row">TOP</li>
+			<li class="list-item--row"></li>
+			<li class="list-item--row"></li>
+			<li class="list-item--row"></li>
+			<li class="list-item--row">お問い合わせ</li>
+		</ul>
+	</nav>
+	</div>
 	</footer>
 </body>
 </html>
